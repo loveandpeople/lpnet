@@ -8,9 +8,9 @@ import (
 
 	"github.com/shirou/gopsutil/cpu"
 
-	"github.com/iotaledger/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/daemon"
 
-	"github.com/gohornet/hornet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
 )
 
 const (

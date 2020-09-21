@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/timeutil"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/timeutil"
 
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/shutdown"
-	"github.com/gohornet/hornet/plugins/database"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/plugins/database"
 )
 
 var (

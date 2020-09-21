@@ -1,4 +1,4 @@
-module github.com/gohornet/hornet
+module github.com/loveandpeople/lpnet
 
 go 1.15
 
@@ -17,8 +17,8 @@ require (
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/go-version v1.2.1 // indirect
-	github.com/iotaledger/hive.go v0.0.0-20200817231853-1c598e8496d7
-	github.com/iotaledger/iota.go v1.0.0-beta.15.0.20200622064951-7fa4854396b2
+	github.com/loveandpeople/hive.go v0.0.0-20200817231853-1c598e8496d7
+	github.com/loveandpeople/lp.go v1.0.0-beta.15.0.20200622064951-7fa4854396b2
 	github.com/labstack/echo/v4 v4.1.16
 	github.com/labstack/gommon v0.3.0
 	github.com/mitchellh/mapstructure v1.3.3

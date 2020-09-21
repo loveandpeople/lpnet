@@ -7,12 +7,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/iotaledger/hive.go/logger"
+	"github.com/loveandpeople/hive.go/logger"
 	flag "github.com/spf13/pflag"
 
-	"github.com/iotaledger/hive.go/node"
+	"github.com/loveandpeople/hive.go/node"
 
-	"github.com/gohornet/hornet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/config"
 )
 
 var (

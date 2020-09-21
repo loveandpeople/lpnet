@@ -5,20 +5,20 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/iotaledger/hive.go/autopeering/discover"
-	"github.com/iotaledger/hive.go/autopeering/selection"
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/identity"
-	"github.com/iotaledger/hive.go/iputils"
-	"github.com/iotaledger/hive.go/logger"
-	"github.com/iotaledger/hive.go/node"
+	"github.com/loveandpeople/hive.go/autopeering/discover"
+	"github.com/loveandpeople/hive.go/autopeering/selection"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/identity"
+	"github.com/loveandpeople/hive.go/iputils"
+	"github.com/loveandpeople/hive.go/logger"
+	"github.com/loveandpeople/hive.go/node"
 
-	"github.com/gohornet/hornet/pkg/autopeering/services"
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/peering/peer"
-	"github.com/gohornet/hornet/pkg/shutdown"
-	"github.com/gohornet/hornet/plugins/peering"
+	"github.com/loveandpeople/lpnet/pkg/autopeering/services"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/peering/peer"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/plugins/peering"
 )
 
 var (

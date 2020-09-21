@@ -9,14 +9,14 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/iota.go/guards"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/lp.go/guards"
 
-	"github.com/gohornet/hornet/pkg/dag"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/plugins/gossip"
-	tanglePlugin "github.com/gohornet/hornet/plugins/tangle"
+	"github.com/loveandpeople/lpnet/pkg/dag"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/plugins/gossip"
+	tanglePlugin "github.com/loveandpeople/lpnet/plugins/tangle"
 )
 
 func init() {

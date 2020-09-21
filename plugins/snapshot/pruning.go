@@ -5,12 +5,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gohornet/hornet/pkg/dag"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/plugins/database"
-	tanglePlugin "github.com/gohornet/hornet/plugins/tangle"
+	"github.com/loveandpeople/lpnet/pkg/dag"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/plugins/database"
+	tanglePlugin "github.com/loveandpeople/lpnet/plugins/tangle"
 )
 
 const (

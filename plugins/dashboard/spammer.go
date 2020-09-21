@@ -1,13 +1,13 @@
 package dashboard
 
 import (
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/workerpool"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/workerpool"
 
-	"github.com/gohornet/hornet/pkg/shutdown"
-	"github.com/gohornet/hornet/pkg/spammer"
-	spammerplugin "github.com/gohornet/hornet/plugins/spammer"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/pkg/spammer"
+	spammerplugin "github.com/loveandpeople/lpnet/plugins/spammer"
 )
 
 var (

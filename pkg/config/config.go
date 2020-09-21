@@ -8,11 +8,11 @@ import (
 	flag "github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/iotaledger/hive.go/parameter"
-	"github.com/iotaledger/hive.go/syncutils"
-	"github.com/iotaledger/iota.go/consts"
-	"github.com/iotaledger/iota.go/guards"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/hive.go/parameter"
+	"github.com/loveandpeople/hive.go/syncutils"
+	"github.com/loveandpeople/lp.go/consts"
+	"github.com/loveandpeople/lp.go/guards"
+	"github.com/loveandpeople/lp.go/trinary"
 )
 
 var (

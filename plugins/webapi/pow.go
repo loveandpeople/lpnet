@@ -9,14 +9,14 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/iotaledger/iota.go/consts"
-	"github.com/iotaledger/iota.go/transaction"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/consts"
+	"github.com/loveandpeople/lp.go/transaction"
+	"github.com/loveandpeople/lp.go/trinary"
 
-	"github.com/iotaledger/hive.go/batchhasher"
+	"github.com/loveandpeople/hive.go/batchhasher"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/plugins/pow"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/plugins/pow"
 )
 
 func init() {

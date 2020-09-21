@@ -1,10 +1,10 @@
 package tangle
 
 import (
-	"github.com/iotaledger/hive.go/workerpool"
+	"github.com/loveandpeople/hive.go/workerpool"
 
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/plugins/gossip"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/plugins/gossip"
 )
 
 var (

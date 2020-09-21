@@ -10,17 +10,17 @@ import (
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
-	"github.com/gohornet/hornet/pkg/basicauth"
-	"github.com/gohornet/hornet/plugins/spammer"
+	"github.com/loveandpeople/lpnet/pkg/basicauth"
+	"github.com/loveandpeople/lpnet/plugins/spammer"
 	cnet "github.com/projectcalico/libcalico-go/lib/net"
 
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/logger"
-	"github.com/iotaledger/hive.go/node"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/logger"
+	"github.com/loveandpeople/hive.go/node"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
 )
 
 // PLUGIN WebAPI

@@ -7,13 +7,13 @@ import (
 	"strings"
 
 	"github.com/gobuffalo/packr/v2"
-	"github.com/iotaledger/hive.go/syncutils"
-	"github.com/iotaledger/hive.go/websockethub"
+	"github.com/loveandpeople/hive.go/syncutils"
+	"github.com/loveandpeople/hive.go/websockethub"
 	"github.com/labstack/echo/v4"
 	"github.com/pkg/errors"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
 )
 
 const (

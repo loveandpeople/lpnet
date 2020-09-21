@@ -3,16 +3,16 @@ package dashboard
 import (
 	"time"
 
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/workerpool"
-	"github.com/iotaledger/iota.go/transaction"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/workerpool"
+	"github.com/loveandpeople/iota.go/transaction"
 
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	tanglemodel "github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/shutdown"
-	"github.com/gohornet/hornet/plugins/tangle"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	tanglemodel "github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/plugins/tangle"
 )
 
 var (

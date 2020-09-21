@@ -8,14 +8,14 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/iotaledger/iota.go/address"
-	"github.com/iotaledger/iota.go/guards"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/address"
+	"github.com/loveandpeople/lp.go/guards"
+	"github.com/loveandpeople/lp.go/trinary"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/plugins/gossip"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/plugins/gossip"
 )
 
 func init() {

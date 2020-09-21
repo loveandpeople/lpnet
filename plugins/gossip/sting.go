@@ -1,13 +1,13 @@
 package gossip
 
 import (
-	"github.com/iotaledger/hive.go/events"
+	"github.com/loveandpeople/hive.go/events"
 
-	"github.com/gohornet/hornet/pkg/metrics"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/peering/peer"
-	"github.com/gohornet/hornet/pkg/protocol/sting"
-	"github.com/gohornet/hornet/plugins/peering"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/peering/peer"
+	"github.com/loveandpeople/lpnet/pkg/protocol/sting"
+	"github.com/loveandpeople/lpnet/plugins/peering"
 )
 
 // sets up the event handlers which propagate STING messages.

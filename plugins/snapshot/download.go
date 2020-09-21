@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	"github.com/iotaledger/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/daemon"
 )
 
 // WriteCounter counts the number of bytes written to it. It implements to the io.Writer interface

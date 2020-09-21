@@ -1,7 +1,7 @@
 package prometheus
 
 import (
-	"github.com/gohornet/hornet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

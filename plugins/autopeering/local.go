@@ -7,15 +7,15 @@ import (
 	"github.com/mr-tron/base58/base58"
 	"go.etcd.io/bbolt"
 
-	"github.com/iotaledger/hive.go/autopeering/peer"
-	"github.com/iotaledger/hive.go/autopeering/peer/service"
-	"github.com/iotaledger/hive.go/crypto/ed25519"
-	"github.com/iotaledger/hive.go/kvstore/bolt"
-	"github.com/iotaledger/hive.go/logger"
+	"github.com/loveandpeople/hive.go/autopeering/peer"
+	"github.com/loveandpeople/hive.go/autopeering/peer/service"
+	"github.com/loveandpeople/hive.go/crypto/ed25519"
+	"github.com/loveandpeople/hive.go/kvstore/bolt"
+	"github.com/loveandpeople/hive.go/logger"
 
-	"github.com/gohornet/hornet/pkg/autopeering/services"
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/autopeering/services"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
 )
 
 type Local struct {

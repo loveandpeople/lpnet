@@ -1,21 +1,21 @@
 package dashboard
 
 import (
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/node"
-	"github.com/iotaledger/hive.go/workerpool"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/node"
+	"github.com/loveandpeople/hive.go/workerpool"
 
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	tanglePackage "github.com/gohornet/hornet/pkg/model/tangle"
-	tanglemodel "github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/shutdown"
-	"github.com/gohornet/hornet/pkg/tipselect"
-	"github.com/gohornet/hornet/pkg/whiteflag"
-	coordinatorPlugin "github.com/gohornet/hornet/plugins/coordinator"
-	"github.com/gohornet/hornet/plugins/tangle"
-	"github.com/gohornet/hornet/plugins/urts"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	tanglePackage "github.com/loveandpeople/lpnet/pkg/model/tangle"
+	tanglemodel "github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/pkg/tipselect"
+	"github.com/loveandpeople/lpnet/pkg/whiteflag"
+	coordinatorPlugin "github.com/loveandpeople/lpnet/plugins/coordinator"
+	"github.com/loveandpeople/lpnet/plugins/tangle"
+	"github.com/loveandpeople/lpnet/plugins/urts"
 )
 
 const (

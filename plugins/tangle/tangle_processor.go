@@ -4,20 +4,20 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/node"
-	"github.com/iotaledger/hive.go/workerpool"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/node"
+	"github.com/loveandpeople/hive.go/workerpool"
 
-	"github.com/gohornet/hornet/pkg/metrics"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/peering/peer"
-	"github.com/gohornet/hornet/pkg/protocol/rqueue"
-	"github.com/gohornet/hornet/pkg/shutdown"
-	"github.com/gohornet/hornet/plugins/gossip"
-	metricsplugin "github.com/gohornet/hornet/plugins/metrics"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/peering/peer"
+	"github.com/loveandpeople/lpnet/pkg/protocol/rqueue"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/plugins/gossip"
+	metricsplugin "github.com/loveandpeople/lpnet/plugins/metrics"
 )
 
 var (

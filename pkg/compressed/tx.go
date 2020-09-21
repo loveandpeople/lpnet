@@ -3,12 +3,12 @@ package compressed
 import (
 	"fmt"
 
-	"github.com/iotaledger/iota.go/consts"
-	"github.com/iotaledger/iota.go/math"
-	"github.com/iotaledger/iota.go/transaction"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/consts"
+	"github.com/loveandpeople/lp.go/math"
+	"github.com/loveandpeople/lp.go/transaction"
+	"github.com/loveandpeople/lp.go/trinary"
 
-	"github.com/iotaledger/hive.go/batchhasher"
+	"github.com/loveandpeople/hive.go/batchhasher"
 )
 
 const (

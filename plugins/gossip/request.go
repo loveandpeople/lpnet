@@ -4,17 +4,17 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/iotaledger/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/daemon"
 
-	"github.com/gohornet/hornet/pkg/dag"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/peering/peer"
-	"github.com/gohornet/hornet/pkg/protocol/helpers"
-	"github.com/gohornet/hornet/pkg/protocol/rqueue"
-	"github.com/gohornet/hornet/pkg/protocol/sting"
-	"github.com/gohornet/hornet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/pkg/dag"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/peering/peer"
+	"github.com/loveandpeople/lpnet/pkg/protocol/helpers"
+	"github.com/loveandpeople/lpnet/pkg/protocol/rqueue"
+	"github.com/loveandpeople/lpnet/pkg/protocol/sting"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
 )
 
 var (

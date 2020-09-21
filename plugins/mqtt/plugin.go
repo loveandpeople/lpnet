@@ -1,18 +1,18 @@
 package mqtt
 
 import (
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/iota.go/trinary"
 
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/logger"
-	"github.com/iotaledger/hive.go/node"
-	"github.com/iotaledger/hive.go/workerpool"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/logger"
+	"github.com/loveandpeople/hive.go/node"
+	"github.com/loveandpeople/hive.go/workerpool"
 
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	tanglePackage "github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/shutdown"
-	"github.com/gohornet/hornet/plugins/tangle"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	tanglePackage "github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/plugins/tangle"
 )
 
 var (

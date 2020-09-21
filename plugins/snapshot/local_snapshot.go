@@ -12,17 +12,17 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/iota.go/consts"
+	"github.com/loveandpeople/lp.go/consts"
 
-	"github.com/iotaledger/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/daemon"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/dag"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/plugins/gossip"
-	tanglePlugin "github.com/gohornet/hornet/plugins/tangle"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/dag"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/plugins/gossip"
+	tanglePlugin "github.com/loveandpeople/lpnet/plugins/tangle"
 )
 
 const (

@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/iotaledger/hive.go/daemon"
-	"github.com/iotaledger/hive.go/logger"
-	"github.com/iotaledger/hive.go/node"
+	"github.com/loveandpeople/hive.go/daemon"
+	"github.com/loveandpeople/hive.go/logger"
+	"github.com/loveandpeople/hive.go/node"
 
-	"github.com/gohornet/hornet/pkg/config"
-	powpackage "github.com/gohornet/hornet/pkg/pow"
-	"github.com/gohornet/hornet/pkg/shutdown"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	powpackage "github.com/loveandpeople/lpnet/pkg/pow"
+	"github.com/loveandpeople/lpnet/pkg/shutdown"
 )
 
 const (

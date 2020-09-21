@@ -9,18 +9,18 @@ import (
 
 	"github.com/mr-tron/base58/base58"
 
-	"github.com/iotaledger/hive.go/autopeering/discover"
-	"github.com/iotaledger/hive.go/autopeering/peer"
-	"github.com/iotaledger/hive.go/autopeering/peer/service"
-	"github.com/iotaledger/hive.go/autopeering/selection"
-	"github.com/iotaledger/hive.go/autopeering/server"
-	"github.com/iotaledger/hive.go/crypto/ed25519"
-	"github.com/iotaledger/hive.go/identity"
-	"github.com/iotaledger/hive.go/iputils"
-	"github.com/iotaledger/hive.go/netutil"
+	"github.com/loveandpeople/hive.go/autopeering/discover"
+	"github.com/loveandpeople/hive.go/autopeering/peer"
+	"github.com/loveandpeople/hive.go/autopeering/peer/service"
+	"github.com/loveandpeople/hive.go/autopeering/selection"
+	"github.com/loveandpeople/hive.go/autopeering/server"
+	"github.com/loveandpeople/hive.go/crypto/ed25519"
+	"github.com/loveandpeople/hive.go/identity"
+	"github.com/loveandpeople/hive.go/iputils"
+	"github.com/loveandpeople/hive.go/netutil"
 
-	"github.com/gohornet/hornet/pkg/autopeering/services"
-	"github.com/gohornet/hornet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/autopeering/services"
+	"github.com/loveandpeople/lpnet/pkg/config"
 )
 
 const (

@@ -6,15 +6,15 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/iotaledger/iota.go/consts"
+	"github.com/loveandpeople/lp.go/consts"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/metrics"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/plugins/cli"
-	"github.com/gohornet/hornet/plugins/gossip"
-	"github.com/gohornet/hornet/plugins/peering"
-	tangleplugin "github.com/gohornet/hornet/plugins/tangle"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/plugins/cli"
+	"github.com/loveandpeople/lpnet/plugins/gossip"
+	"github.com/loveandpeople/lpnet/plugins/peering"
+	tangleplugin "github.com/loveandpeople/lpnet/plugins/tangle"
 )
 
 func init() {

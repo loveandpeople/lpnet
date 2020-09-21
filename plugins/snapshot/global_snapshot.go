@@ -8,14 +8,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/iota.go/address"
-	"github.com/iotaledger/iota.go/consts"
+	"github.com/loveandpeople/lp.go/address"
+	"github.com/loveandpeople/lp.go/consts"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	tanglePlugin "github.com/gohornet/hornet/plugins/tangle"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	tanglePlugin "github.com/loveandpeople/lpnet/plugins/tangle"
 )
 
 func loadSpentAddresses(filePathSpent string) (int, error) {

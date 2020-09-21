@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/iotaledger/hive.go/events"
+	"github.com/loveandpeople/hive.go/events"
 )
 
 type TPSMetrics struct {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/iotaledger/hive.go/autopeering/peer/service"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/hive.go/autopeering/peer/service"
 )
 
 var gossipServiceKey service.Key

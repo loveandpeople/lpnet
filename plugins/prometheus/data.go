@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gohornet/hornet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/config"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

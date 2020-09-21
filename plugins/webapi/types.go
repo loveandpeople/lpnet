@@ -1,10 +1,10 @@
 package webapi
 
 import (
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/trinary"
 
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/peering/peer"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/peering/peer"
 )
 
 //////////////////// addNeighbors /////////////////////////////////
