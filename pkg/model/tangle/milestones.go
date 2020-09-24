@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/iota.go/consts"
-	"github.com/iotaledger/iota.go/merkle"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/consts"
+	"github.com/loveandpeople/lp.go/merkle"
+	"github.com/loveandpeople/lp.go/trinary"
 
-	"github.com/iotaledger/hive.go/syncutils"
+	"github.com/loveandpeople/hive.go/syncutils"
 
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
 )
 
 const (

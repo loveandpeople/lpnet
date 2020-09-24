@@ -11,18 +11,18 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/syncutils"
-	"github.com/iotaledger/iota.go/consts"
-	"github.com/iotaledger/iota.go/merkle"
-	"github.com/iotaledger/iota.go/transaction"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/syncutils"
+	"github.com/loveandpeople/lp.go/consts"
+	"github.com/loveandpeople/lp.go/merkle"
+	"github.com/loveandpeople/lp.go/transaction"
+	"github.com/loveandpeople/lp.go/trinary"
 
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/pow"
-	"github.com/gohornet/hornet/pkg/whiteflag"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/pow"
+	"github.com/loveandpeople/lpnet/pkg/whiteflag"
 )
 
 // Bundle represents grouped together transactions forming a transfer.

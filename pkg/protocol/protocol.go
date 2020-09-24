@@ -9,14 +9,14 @@ import (
 
 	"github.com/willf/bitset"
 
-	"github.com/iotaledger/hive.go/byteutils"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/syncutils"
+	"github.com/loveandpeople/hive.go/byteutils"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/syncutils"
 
-	"github.com/gohornet/hornet/pkg/protocol/handshake"
-	"github.com/gohornet/hornet/pkg/protocol/message"
-	"github.com/gohornet/hornet/pkg/protocol/sting"
-	"github.com/gohornet/hornet/pkg/protocol/tlv"
+	"github.com/loveandpeople/lpnet/pkg/protocol/handshake"
+	"github.com/loveandpeople/lpnet/pkg/protocol/message"
+	"github.com/loveandpeople/lpnet/pkg/protocol/sting"
+	"github.com/loveandpeople/lpnet/pkg/protocol/tlv"
 )
 
 var (

@@ -5,10 +5,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gohornet/hornet/pkg/protocol"
-	"github.com/gohornet/hornet/pkg/protocol/handshake"
-	"github.com/gohornet/hornet/pkg/protocol/sting"
-	"github.com/iotaledger/hive.go/events"
+	"github.com/loveandpeople/lpnet/pkg/protocol"
+	"github.com/loveandpeople/lpnet/pkg/protocol/handshake"
+	"github.com/loveandpeople/lpnet/pkg/protocol/sting"
+	"github.com/loveandpeople/hive.go/events"
 	"github.com/stretchr/testify/assert"
 )
 

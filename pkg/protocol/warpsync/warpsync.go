@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/iotaledger/hive.go/events"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/hive.go/events"
 )
 
 // New creates a new WarpSync instance with the given advancement range and criteria func.

@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/iotaledger/hive.go/syncutils"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/hive.go/syncutils"
+	"github.com/loveandpeople/lp.go/trinary"
 )
 
 var (

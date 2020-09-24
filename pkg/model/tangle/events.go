@@ -1,7 +1,7 @@
 package tangle
 
 import (
-	"github.com/iotaledger/hive.go/events"
+	"github.com/loveandpeople/hive.go/events"
 )
 
 var Events = packageEvents{

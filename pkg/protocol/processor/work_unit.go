@@ -1,14 +1,14 @@
 package processor
 
 import (
-	"github.com/iotaledger/hive.go/objectstorage"
-	"github.com/iotaledger/hive.go/syncutils"
+	"github.com/loveandpeople/hive.go/objectstorage"
+	"github.com/loveandpeople/hive.go/syncutils"
 
-	"github.com/gohornet/hornet/pkg/metrics"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/peering/peer"
-	"github.com/gohornet/hornet/pkg/protocol/bqueue"
-	"github.com/gohornet/hornet/plugins/peering"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/peering/peer"
+	"github.com/loveandpeople/lpnet/pkg/protocol/bqueue"
+	"github.com/loveandpeople/lpnet/plugins/peering"
 )
 
 // WorkUnitState defines the state which a WorkUnit is in.

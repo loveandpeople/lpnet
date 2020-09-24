@@ -3,7 +3,7 @@ package tangle
 import (
 	"github.com/pkg/errors"
 
-	"github.com/iotaledger/hive.go/kvstore"
+	"github.com/loveandpeople/hive.go/kvstore"
 )
 
 const (

@@ -4,18 +4,18 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/iotaledger/iota.go/bundle"
-	"github.com/iotaledger/iota.go/consts"
-	"github.com/iotaledger/iota.go/transaction"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/bundle"
+	"github.com/loveandpeople/lp.go/consts"
+	"github.com/loveandpeople/lp.go/transaction"
+	"github.com/loveandpeople/lp.go/trinary"
 
-	"github.com/iotaledger/hive.go/batchhasher"
+	"github.com/loveandpeople/hive.go/batchhasher"
 
-	"github.com/gohornet/hornet/pkg/metrics"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/pow"
-	"github.com/gohornet/hornet/pkg/utils"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/pow"
+	"github.com/loveandpeople/lpnet/pkg/utils"
 
 	"go.uber.org/atomic"
 )

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/iotaledger/hive.go/node"
+	"github.com/loveandpeople/hive.go/node"
 
 	"github.com/loveandpeople/lpnet/pkg/config"
 	"github.com/loveandpeople/lpnet/pkg/toolset"

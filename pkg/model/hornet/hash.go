@@ -3,7 +3,7 @@ package hornet
 import (
 	"fmt"
 
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/trinary"
 )
 
 var (

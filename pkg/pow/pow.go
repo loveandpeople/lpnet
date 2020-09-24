@@ -3,11 +3,11 @@ package pow
 import (
 	"time"
 
-	"github.com/iotaledger/iota.go/pow"
-	"github.com/iotaledger/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/pow"
+	"github.com/loveandpeople/lp.go/trinary"
 
-	"github.com/iotaledger/hive.go/logger"
-	"github.com/iotaledger/hive.go/syncutils"
+	"github.com/loveandpeople/hive.go/logger"
+	"github.com/loveandpeople/hive.go/syncutils"
 
 	powsrvio "gitlab.com/powsrv.io/go/client"
 )

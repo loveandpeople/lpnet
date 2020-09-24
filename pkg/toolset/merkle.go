@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/iotaledger/iota.go/consts"
-	"github.com/iotaledger/iota.go/merkle"
+	"github.com/loveandpeople/lp.go/consts"
+	"github.com/loveandpeople/lp.go/merkle"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/utils"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/utils"
 )
 
 const (

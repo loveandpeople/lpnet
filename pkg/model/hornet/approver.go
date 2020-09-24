@@ -3,7 +3,7 @@ package hornet
 import (
 	"fmt"
 
-	"github.com/iotaledger/hive.go/objectstorage"
+	"github.com/loveandpeople/hive.go/objectstorage"
 )
 
 type Approver struct {

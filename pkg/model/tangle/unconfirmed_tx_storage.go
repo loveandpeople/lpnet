@@ -4,12 +4,12 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/objectstorage"
+	"github.com/loveandpeople/hive.go/kvstore"
+	"github.com/loveandpeople/hive.go/objectstorage"
 
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/profile"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/profile"
 )
 
 var unconfirmedTxStorage *objectstorage.ObjectStorage

@@ -7,10 +7,10 @@ import (
 
 	"go.etcd.io/bbolt"
 
-	"github.com/iotaledger/hive.go/kvstore"
-	"github.com/iotaledger/hive.go/kvstore/bolt"
+	"github.com/loveandpeople/hive.go/kvstore"
+	"github.com/loveandpeople/hive.go/kvstore/bolt"
 
-	"github.com/gohornet/hornet/pkg/profile"
+	"github.com/loveandpeople/lpnet/pkg/profile"
 )
 
 const (

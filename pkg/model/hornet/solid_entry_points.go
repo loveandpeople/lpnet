@@ -5,9 +5,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/iotaledger/hive.go/syncutils"
+	"github.com/loveandpeople/hive.go/syncutils"
 
-	"github.com/gohornet/hornet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
 )
 
 type SolidEntryPoints struct {

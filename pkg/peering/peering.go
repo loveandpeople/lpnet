@@ -9,20 +9,20 @@ import (
 	"sync"
 	"time"
 
-	autopeering "github.com/iotaledger/hive.go/autopeering/peer"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/iputils"
-	"github.com/iotaledger/hive.go/network"
-	"github.com/iotaledger/hive.go/network/tcp"
+	autopeering "github.com/loveandpeople/hive.go/autopeering/peer"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/iputils"
+	"github.com/loveandpeople/hive.go/network"
+	"github.com/loveandpeople/hive.go/network/tcp"
 	"github.com/labstack/gommon/log"
 	"go.uber.org/atomic"
 
-	"github.com/gohornet/hornet/pkg/config"
-	"github.com/gohornet/hornet/pkg/model/tangle"
-	"github.com/gohornet/hornet/pkg/peering/peer"
-	"github.com/gohornet/hornet/pkg/protocol"
-	"github.com/gohornet/hornet/pkg/protocol/handshake"
-	"github.com/gohornet/hornet/pkg/protocol/sting"
+	"github.com/loveandpeople/lpnet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/peering/peer"
+	"github.com/loveandpeople/lpnet/pkg/protocol"
+	"github.com/loveandpeople/lpnet/pkg/protocol/handshake"
+	"github.com/loveandpeople/lpnet/pkg/protocol/sting"
 )
 
 const (

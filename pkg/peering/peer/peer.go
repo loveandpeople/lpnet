@@ -8,17 +8,17 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/iotaledger/hive.go/autopeering/peer"
-	"github.com/iotaledger/hive.go/events"
-	"github.com/iotaledger/hive.go/identity"
-	"github.com/iotaledger/hive.go/iputils"
-	"github.com/iotaledger/hive.go/network"
+	"github.com/loveandpeople/hive.go/autopeering/peer"
+	"github.com/loveandpeople/hive.go/events"
+	"github.com/loveandpeople/hive.go/identity"
+	"github.com/loveandpeople/hive.go/iputils"
+	"github.com/loveandpeople/hive.go/network"
 
-	"github.com/gohornet/hornet/pkg/metrics"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/protocol"
-	"github.com/gohornet/hornet/pkg/protocol/sting"
-	"github.com/gohornet/hornet/pkg/utils"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/protocol"
+	"github.com/loveandpeople/lpnet/pkg/protocol/sting"
+	"github.com/loveandpeople/lpnet/pkg/utils"
 )
 
 // ConnectionOrigin defines whether a connection was initialized inbound or outbound.

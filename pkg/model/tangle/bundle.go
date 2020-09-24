@@ -5,15 +5,15 @@ import (
 	"log"
 	"sync"
 
-	iotagobundle "github.com/iotaledger/iota.go/bundle"
+	iotagobundle "github.com/loveandpeople/lp.go/bundle"
 
-	"github.com/iotaledger/hive.go/bitmask"
-	"github.com/iotaledger/hive.go/objectstorage"
-	"github.com/iotaledger/hive.go/syncutils"
+	"github.com/loveandpeople/hive.go/bitmask"
+	"github.com/loveandpeople/hive.go/objectstorage"
+	"github.com/loveandpeople/hive.go/syncutils"
 
-	"github.com/gohornet/hornet/pkg/metrics"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
 )
 
 func BundleCaller(handler interface{}, params ...interface{}) {

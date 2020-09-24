@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/iotaledger/hive.go/objectstorage"
+	"github.com/loveandpeople/hive.go/objectstorage"
 
-	"github.com/gohornet/hornet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
 )
 
 type UnconfirmedTx struct {
