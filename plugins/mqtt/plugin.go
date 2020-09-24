@@ -1,7 +1,7 @@
 package mqtt
 
 import (
-	"github.com/loveandpeople/iota.go/trinary"
+	"github.com/loveandpeople/lp.go/trinary"
 
 	"github.com/loveandpeople/hive.go/daemon"
 	"github.com/loveandpeople/hive.go/events"

@@ -13,8 +13,8 @@ import (
 	"github.com/loveandpeople/hive.go/node"
 	"github.com/loveandpeople/hive.go/syncutils"
 	"github.com/loveandpeople/hive.go/timeutil"
-	"github.com/loveandpeople/iota.go/consts"
-	"github.com/loveandpeople/iota.go/transaction"
+	"github.com/loveandpeople/lp.go/consts"
+	"github.com/loveandpeople/lp.go/transaction"
 
 	"github.com/loveandpeople/lpnet/pkg/config"
 	"github.com/loveandpeople/lpnet/pkg/dag"

@@ -3,7 +3,7 @@ package sting
 import (
 	"encoding/binary"
 
-	"github.com/gohornet/hornet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
 )
 
 // Heartbeat contains information about a nodes current solid and pruned milestone index.

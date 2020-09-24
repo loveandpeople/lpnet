@@ -1,10 +1,10 @@
 package helpers
 
 import (
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/peering/peer"
-	"github.com/gohornet/hornet/pkg/protocol/sting"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/peering/peer"
+	"github.com/loveandpeople/lpnet/pkg/protocol/sting"
 )
 
 // SendTransaction sends a transaction message to the given peer.

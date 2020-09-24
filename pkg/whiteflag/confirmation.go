@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gohornet/hornet/pkg/metrics"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/metrics"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
 )
 
 type ConfirmedMilestoneStats struct {

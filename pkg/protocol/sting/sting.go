@@ -5,11 +5,11 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/gohornet/hornet/pkg/consts"
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
-	"github.com/gohornet/hornet/pkg/protocol/message"
-	"github.com/gohornet/hornet/pkg/protocol/tlv"
+	"github.com/loveandpeople/lpnet/pkg/consts"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/protocol/message"
+	"github.com/loveandpeople/lpnet/pkg/protocol/tlv"
 )
 
 var (

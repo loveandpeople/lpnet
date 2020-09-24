@@ -6,7 +6,7 @@ import (
 	"github.com/loveandpeople/hive.go/daemon"
 	"github.com/loveandpeople/hive.go/events"
 	"github.com/loveandpeople/hive.go/workerpool"
-	"github.com/loveandpeople/iota.go/transaction"
+	"github.com/loveandpeople/lp.go/transaction"
 
 	"github.com/loveandpeople/lpnet/pkg/model/hornet"
 	"github.com/loveandpeople/lpnet/pkg/model/milestone"

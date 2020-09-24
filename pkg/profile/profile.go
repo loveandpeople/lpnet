@@ -9,7 +9,7 @@ import (
 	"github.com/shirou/gopsutil/mem"
 	flag "github.com/spf13/pflag"
 
-	"github.com/gohornet/hornet/pkg/config"
+	"github.com/loveandpeople/lpnet/pkg/config"
 )
 
 const (

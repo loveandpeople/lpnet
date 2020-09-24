@@ -7,8 +7,8 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/milestone"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/milestone"
 )
 
 // Queue implements a queue which contains requests for needed data.

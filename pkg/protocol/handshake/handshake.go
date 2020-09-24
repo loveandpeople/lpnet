@@ -8,8 +8,8 @@ import (
 
 	"github.com/willf/bitset"
 
-	"github.com/gohornet/hornet/pkg/protocol/message"
-	"github.com/gohornet/hornet/pkg/protocol/tlv"
+	"github.com/loveandpeople/lpnet/pkg/protocol/message"
+	"github.com/loveandpeople/lpnet/pkg/protocol/tlv"
 )
 
 func init() {

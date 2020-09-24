@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gohornet/hornet/pkg/model/hornet"
-	"github.com/gohornet/hornet/pkg/model/tangle"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/tangle"
 )
 
 type ApproversTraverser struct {

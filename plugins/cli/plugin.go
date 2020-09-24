@@ -120,7 +120,7 @@ func checkLatestVersion() {
 	}
 
 	if res.Outdated {
-		log.Infof("Update to %s available on https://github.com/gohornet/hornet/releases/latest", res.Current)
+		log.Infof("Update to %s available on https://github.com/loveandpeople/lpnet/releases/latest", res.Current)
 		LatestGithubVersion = res.Current
 	}
 }

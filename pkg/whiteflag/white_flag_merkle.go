@@ -4,7 +4,7 @@ import (
 	"crypto"
 	"math/bits"
 
-	"github.com/gohornet/hornet/pkg/model/hornet"
+	"github.com/loveandpeople/lpnet/pkg/model/hornet"
 )
 
 // Domain separation prefixes
