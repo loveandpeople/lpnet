@@ -21,11 +21,11 @@ import (
 
 var (
 	// AppVersion version number
-	AppVersion          = "0.5.2"
+	AppVersion          = "0.5.4"
 	LatestGithubVersion = AppVersion
 
 	// AppName app code name
-	AppName = "HORNET"
+	AppName = "LPNET"
 
 	githubTag *latest.GithubTag
 )
@@ -63,8 +63,8 @@ func configure(plugin *node.Plugin) {
 	log = logger.NewLogger(plugin.Name)
 
 	githubTag = &latest.GithubTag{
-		Owner:             "gohornet",
-		Repository:        "hornet",
+		Owner:             "loveandpeople",
+		Repository:        "lpnet",
 		FixVersionStrFunc: fixVersion,
 		TagFilterFunc:     includeVersionInCheck,
 	}
